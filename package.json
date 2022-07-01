@@ -1,0 +1,23 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-modules index.js "
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "github:chalk/chalk",
+    "crypto": "^1.0.1",
+    "node-fetch": "^3.2.6",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "node": "^11.0.0"
+  }
+}
